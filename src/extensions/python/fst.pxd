@@ -651,7 +651,7 @@ cdef extern from "<fst/script/fstscript.h>" namespace "fst::script" nogil:
   cdef bool Verify(const FstClass &)
 
 
-cdef extern from "nlp/fst/script/getters.h" namespace "fst::script" nogil:
+cdef extern from "fst/script/getters.h" namespace "fst::script" nogil:
 
   cdef bool GetArcSortType(const string &, ArcSortType *)
 
